@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitNess center -join now</title>
+    <!-- Font Awesome Iocns cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:  sans-serif;
+  }
+  body{
+    background: #000;
+  }
+  .btn{
+    margin-top: 1cm;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background:red;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background: orange;
+  }
+  .header{
+    position: fixed;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+  }
+  .header .logo{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 10px;
+    margin-right: 7cm;
+  }
+  .header .logo i{
+    color: #fff;
+    padding: 1cm;
+  }
+  .header .navbar a{
+    font-size: 0.5cm;
+    margin: 0.3cm;
+    color: #fff;
+  }
+  .header .navbar a:hover{
+    color: #baa6cf;
+  }
+  .header .btn{
+    background: red;
+    color: whitesmoke;
+    border: 1px solid white;
+    font-size: 12px;
+    padding: 8px;
+  }
+  
+ 
+  .home{
+    width: 1300px;
+    padding: 50px;
+  }
+  .home .home-width{
+    display: flex;
+  }
+  .home .content{
+    width: 50%;
+    padding: 1cm;
+  }
+  .home h3{
+    color:wheat;
+    margin-top: 2cm;
+    font-size:50px;
+    font-family:  sans-serif;
+  }
+  .home p{
+    color: white;
+    margin-top: 1cm;
+    font-size: 18px;
+  }
+  .home .image{
+    padding-top: 2cm;
+margin-right: 1cm;   width:18cm;
+   height:28cm;
+  }
+  .button{
+    margin-top: 1cm;
+    padding:1cm;
+    width:8cm;
+    min-height: 3cm;
+    color: orange;
+    background-color: rgb(110, 34, 34);
+    border-radius: 2cm;
+    display: inline-flex;
+justify-content: first baseline;     align-items: center;
+     text-align: center;
+     float: right;
+  }
+ .button:hover{
+  background-color: rgb(155, 86, 86);
+ }
+ .image-two{
+  display: inline-flex; 
+  justify-content: space-between;
+  float: left;
+align-items: baseline;
+width:25cm;
+height: 5cm;
+ }
+ .image-two:hover{
+  width:30cm;
+  height: 5cm;
+ }
+ .h2{
+ animation:h2;
+      animation-duration: 15s;
+animation-iteration-count: infinite;
+
+    }
+
+@keyframes h2{
+  from
+  {
+    transform: translateX(500px);
+  }
+  to{
+    transform: translateX(-150px);
+
+  }
+}
+.h3{
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  float: right;
+
+}
+
+
+
+.dumbell{
+  float: right;
+}
+.dumbell:hover{
+  Z-Index: 2;
+Transition: All 1s Ease-Out;
+ transform: translateY(100PX);
+justify-content: space-between;
+  }
+
+
+
+
+ footer{  
+  background:black;  
+  width: 100%;  
+
+ }  
+
+ footer .content .link-boxes{  
+  width: 100%;  
+  display: flex;  
+  justify-content: space-between;  
+ }  
+
+ .content .link-boxes .box .link_name{  
+  color: #fff;  
+  font-size: 20px;  
+  font-weight: 600;  
+  margin-bottom: 15px;  
+  position: relative;  
+ }  
+ .link-boxes .box .link_name::before{  
+  content: '';  
+  position: absolute;  
+  left: 0;  
+  bottom: -2px;  
+  height: 2px;  
+  width: 35px;  
+  background: #fff;  
+ }  
+ .content .link-boxes .box li{  
+  margin: 6px ;  
+  list-style: none;  
+ }  
+ .content .link-boxes .box li a{  
+  color: #fff;  
+  font-size: 14px;  
+  font-weight: 400;  
+  text-decoration: none;  
+  opacity: 0.8;  
+ }  
+ .content .link-boxes .box li a:hover{  
+  font-weight: 600; 
+ }  
+
+
+ 
+  </style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fas fa-dumbbell"></i>FitNess center 
+        </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+                        <a href="#">|</a>
+
+            <a href="#services">Services</a>
+                        <a href="#">|</a>
+
+            <a href="#bottom">Contact</a>
+                        <a href="#">|</a>
+
+            <a href="price list .html">Pricing</a>
+            <a href="#">|</a>
+            <a href="login form.html">Login</a>
+                        <a href="#">|</a>
+
+            <a href="signup form.html" class="btn">Sign Up</a>
+        </nav>
+    </header>
+
+    <div class="home">
+        <div class="home-width">
+            <div class="content"><h2 id="home"></h2>
+                <h3>Nothing will work unless you do.<br> Excuses dont kill the fat, exercises do.</h3>
+<p>Fitness is not about being better than someone else, its about being better than you used to be. </br>Good is not enough if better is possible .so, Fall in love with taking care of your body.</br>A 1-hour workout is 4% of your day. #noexcuses</p>         
+       <button class="btn">Get started</button></br></br></br></br>
+     <h1 style="color: red;text-align:center ;text-shadow:2cm font-weight:800px;"> LETS EXPLORE NOW    > 
+    </h1>
+  </br></br></br></br>
+        <div class=" image-two "><img src="gym background3.jpeg">
+          <div class="dumbell">   <i class="fas fa-dumbbell"></i> <img src="inkeddumbell1.jpg"></div>
+
+          <img src="gym background4.jpeg">
+
+      </div>
+
+      </br></br></br></br>
+
+      <div class="h3">
+      </br></br></br></br>
+  
+       <h3 style="color:red;"> Worlds best fittness center</h3></br></br>
+       <h3 style="color:rgb(146, 87, 87);"> Finnest trainners<button>  TRAINERS  </button></h3>
+       <h3 style="color:rgb(146, 90, 90);" > Full guidence <button>EXPLORE NOW</button></H3>
+        <h3 style="color:rgb(146, 87, 87); "> Low cost<button> PAKAGES </button></h3>
+
+
+</div>
+        <div class="h2">
+        </br></br></br></br>
+
+       <h2 style="color:white;text-align: center; justify-content: center;">WHY ARE YOU WEIGHTING FOR ?  </h2>
+      </div> <button style="float:right" class="btn">Get started</button></br></br></br></br>
+
+
+            </div>
+            <div class="image">
+                <img src="gym background2.jpeg" alt=" get fit">
+            </div>
+        </div>
+      </div>
+      <div class="button">
+      <H1 style="color:wheat">ELITE</H1>
+    </br>
+       Unlimitted access to all group classes</br> specially assist by trainners with specified  weakly diet charts 
+     </div>
+      <div class="button">
+        <h1 style="color:wheat">PRO</h1>
+      </br>Unlimitted access to all group classes with diet charts</div>
+        <div class="button">
+          <h1 style="color:wheat">GENERAL</h1></br>Unlimitted access to all group classes</button>
+</div>
+<footer>  
+  <div class="content">   
+    <div class="link-boxes">  
+      <ul class="box">  
+        <li class="link_name">Links</li>  
+        <li><a href="#">Home</a></li>  
+        <li><a href="#">Contact</a></li>  
+        <li><a href="#">About Us</a></li>  
+        <li><a href="#">Privacy Policy</a></li>  
+      </ul>  
+      <ul class="box"> <h2 id="services"></h2>
+
+        <li class="link_name">Services</li>
+        <li><a href="#">weight trainning</a></li>  
+        <li><a href="#">cardio</a></li>  
+        <li><a href="#">floor workouts</a></li>  
+        <li><a href="#">one on one sessions</a></li>
+      </ul>  
+  <ul class="box">  
+        <li class="link_name">Other services</li>
+    <li><a href="#">zuma dance</a></li>  
+        <li><a href="#">steam bath</a></li>  
+        <li><a href="#">stretching class</a></li>  
+        <li><a href="#">yoga class</a></li>
+      </ul>  
+      <ul class="box">  <h2 id="bottom"></h2>
+        <li class="link_name">Contact</li>
+        <li><a href="#">+919 9999999999</a></li>  
+        <li><a href="#">fitnesscenter@gmail.com</a></li>  
+      </ul>  
+    </div>  
+  </div>  
+</footer>  
+</body>
+</html>
